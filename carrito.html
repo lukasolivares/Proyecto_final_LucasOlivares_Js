@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bugstore - Freak store!</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
+    <link rel="stylesheet" href="/styles.css" />
+
+</head>
+
+<body>
+    <!--header-->
+    <header class="header">
+        <nav class="navbar">
+            <img class="logo" src="/img/logo.svg" alt="Bugstore">
+            <ul class="navbar__items">
+                <li><a class="navbar__link" href="/index.html">Coleccion</a></li>
+                <li><a class="navbar__link" href="/carrito.html">Carrito</a></li>
+                <li><a class="navbar__link" href="#">Contacto</a></li>
+            </ul>
+            <div class="header__cart">
+                <span class="boton-menu boton-carrito" href="/carrito.html">
+                    <img class="carrito-icon" src="/img/icon-cart.svg"><span id="numerito" class="numerito">0</span>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="contenedor-carrito">
+            <p id="carrito-vacio" class="carrito-vacio disabled">No hay productos en tu carrito <img class="icon-lupa" src="/img/icon-lupa.svg"></p>
+
+            <div id="carrito-productos" class="carrito-productos disabled">
+                <!-- contenedor de productos comprados -->
+            </div>
+
+            <div id="carrito-acciones" class="carrito-acciones disabled">
+                <div class="carrito-acciones-izquierda">
+                    <button id="carrito-acciones-vaciar" class="carrito-acciones-vaciar">Vaciar carrito</button>
+                </div>
+                <div class="carrito-acciones-derecha">
+                    <div class="carrito-acciones-total">
+                        <p>Total:</p>
+                        <p id="total">$3000</p>
+                    </div>
+                    <button id="carrito-acciones-comprar" class="carrito-acciones-comprar">Comprar ahora</button>
+                </div>
+            </div>
+
+            <p id="carrito-comprado" class="carrito-comprado disabled">Muchas gracias por tu compra!!! <img class="like-icon" src="/img/icon-like.svg"></p>
+
+        </div>
+    </main>
+
+    </div>
+
+
+
+
+
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="/carrito.js"></script>
+
+</body>
+
+</html>

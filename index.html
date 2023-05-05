@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bugstore - Freak store!</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
+    <link rel="stylesheet" href="styles.css" />
+
+</head>
+
+<body>
+    <!--header-->
+    <main class="main-container">
+        <header class="header">
+            <nav class="navbar">
+                <img class="logo" src="/img/logo.svg" alt="Bugstore">
+                <ul class="navbar__items">
+                    <li><a class="navbar__link" href="/index.html">Coleccion</a></li>
+                    <li><a class="navbar__link" href="/carrito.html">Carrito</a></li>
+                    <li><a class="navbar__link" href="#">Contacto</a></li>
+                </ul>
+                <div class="header__cart">
+                    <span class="boton-menu boton-carrito" href="/carrito.html">
+                        <img class="carrito-icon" src="/img/icon-cart.svg" ><span id="numerito" class="numerito">0</span>
+                </div>
+            </nav>
+        </header>
+    </main>
+
+    <!--Shoop content-->
+
+    <section id="productos_tienda">
+        <div class="filtro_shop">
+            <input type="text" id="buscador" placeholder="Buscar por Nombre">
+            <label><input class="input" type="checkbox" id="remera">Remeras</label>
+            <label><input class="input" type="checkbox" id="pantalon">Pantalones</label>
+            <label><input class="input" type="checkbox" id="buzo">Hoodies</label>
+            <label><input class="input" type="checkbox" id="accesorios">Accesorios</label>
+            <label><input class="input" type="checkbox" id="zapatilla">Zapatillas</label>
+        </div>
+        <!--Contenedor de Productos-->
+        <div id="contenedorProductos" class="contenedor-productos">
+
+        </div>
+    </section>
+
+
+
+
+
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="/main.js"></script>
+    <!--<script type="module" src="/main.js"></script>-->
+</body>
+
+</html>

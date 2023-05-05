@@ -1,0 +1,202 @@
+[
+    {
+        "id": "01",
+        "nombre": "Hoddie Avange me Brother",
+        "categoria": "buzo",
+        "precio": "11300",
+        "stock": "3",
+        "img": "./img/products/products-01.jpg"
+    },
+    {
+        "id": "02",
+        "nombre": "Remera Avange me Brother",
+        "categoria": "remera",
+        "precio": "5300",
+        "stock": "3",
+        "img": "./img/products/products-02.jpg"
+    },
+    {
+        "id": "03",
+        "nombre": "Remera MTG Classic",
+        "categoria": "remera",
+        "precio": "5300",
+        "stock": "3",
+        "img": "./img/products/products-03.jpg"
+    },
+    {
+        "id": "04",
+        "nombre": "Calza D20 - Roll ",
+        "categoria": "pantalon",
+        "precio": "7300",
+        "stock": "3",
+        "img": "./img/products/products-04.jpg"
+    },
+    {
+        "id": "05",
+        "nombre": "Jogging D&D",
+        "categoria": "pantalon",
+        "precio": "5300",
+        "stock": "3",
+        "img": "./img/products/products-05.jpg"
+    },
+    {
+        "id": "06",
+        "nombre": "Pantalon Pijama D&D - Roll",
+        "categoria": "Pantalon",
+        "precio": "4300",
+        "stock": "3",
+        "img": "./img/products/products-06.jpg"
+    },
+    {
+        "id": "07",
+        "nombre": "Remera - HP Lovecraft - CoC",
+        "categoria": "remera",
+        "precio": "4300",
+        "stock": "3",
+        "img": "./img/products/products-07.jpg"
+    },
+    {
+        "id": "08",
+        "nombre": "Remera Lovecraft",
+        "categoria": "remera",
+        "precio": "5300",
+        "stock": "3",
+        "img": "./img/products/products-08.jpg"
+    },
+    {
+        "id": "09",
+        "nombre": "Remera Call of Cthulhu",
+        "categoria": "remera",
+        "precio": "6300",
+        "stock": "3",
+        "img": "./img/products/products-09.jpg"
+    },
+    {
+        "id": "10",
+        "nombre": "Camisa MTG - Classic",
+        "categoria": "camisa",
+        "precio": "5300",
+        "stock": "3",
+        "img": "./img/products/products-10.jpg"
+    },
+    {
+        "id": "11",
+        "nombre": "Hoddie MTG - Red Mana",
+        "categoria": "buzo",
+        "precio": "9300",
+        "stock": "3",
+        "img": "./img/products/products-11.jpg"
+    },
+    {
+        "id": "12",
+        "nombre": "Remera - EleshNorn - MTG",
+        "categoria": "remera",
+        "precio": "4300",
+        "stock": "3",
+        "img": "./img/products/products-12.jpg"
+    },
+    {
+        "id": "13",
+        "nombre": "Gorra MTG",
+        "categoria": "accesorios",
+        "precio": "5300",
+        "stock": "3",
+        "img": "./img/products/products-13.jpg"
+    },
+    {
+        "id": "14",
+        "nombre": "Remera - Phyrexia",
+        "categoria": "remera",
+        "precio": "5300",
+        "stock": "3",
+        "img": "./img/products/products-14.jpg"
+    },
+    {
+        "id": "15",
+        "nombre": "Remera - Necromancer - Hunt",
+        "categoria": "remera",
+        "precio": "5300",
+        "stock": "3",
+        "img": "./img/products/products-15.jpg"
+    },
+    {
+        "id": "16",
+        "nombre": "Remera - Hunters",
+        "categoria": "remera",
+        "precio": "4300",
+        "stock": "3",
+        "img": "./img/products/products-16.jpg"
+    },
+    {
+        "id": "17",
+        "nombre": "Remera - Logo Hunt",
+        "categoria": "remera",
+        "precio": "5600",
+        "stock": "3",
+        "img": "./img/products/products-17.jpg"
+    },
+    {
+        "id": "18",
+        "nombre": "Hoodie - Its a Hunt - Hunt",
+        "categoria": "buzo",
+        "precio": "9300",
+        "stock": "3",
+        "img": "./img/products/products-18.jpg"
+    },
+    {
+        "id": "19",
+        "nombre": "Hoodie Hunt Classic",
+        "categoria": "buzo",
+        "precio": "11600",
+        "stock": "3",
+        "img": "./img/products/products-19.jpg"
+    },
+    {
+        "id": "20",
+        "nombre": "Zapatillas Pokemon B&W",
+        "categoria": "zapatilla",
+        "precio": "24300",
+        "stock": "3",
+        "img": "./img/products/products-20.jpg"
+    },
+    {
+        "id": "21",
+        "nombre": "Zapatillas Nike - Classic",
+        "categoria": "zapatilla",
+        "precio": "15300",
+        "stock": "3",
+        "img": "./img/products/products-21.jpg"
+    },
+    {
+        "id": "22",
+        "nombre": "Zapatillas Urbans",
+        "categoria": "zapatilla",
+        "precio": "5300",
+        "stock": "3",
+        "img": "./img/products/products-22.jpg"
+    },
+    {
+        "id": "23",
+        "nombre": "Zapatillas Urban White",
+        "categoria": "zapatilla",
+        "precio": "22300",
+        "stock": "3",
+        "img": "./img/products/products-23.jpg"
+    },
+    {
+        "id": "24",
+        "nombre": "Zapatillas NB Classic",
+        "categoria": "zapatilla",
+        "precio": "25300",
+        "stock": "3",
+        "img": "./img/products/products-24.jpg"
+    },
+    {
+        "id": "25",
+        "nombre": "Zapatillas NB Red",
+        "categoria": "zapatilla",
+        "precio": "21300",
+        "stock": "3",
+        "img": "./img/products/products-25.jpg"
+    }
+]
