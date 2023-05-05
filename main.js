@@ -87,7 +87,8 @@ function actualizarBotonesAgregar(){
 
 let productosEnCarrito
 
-let productosEnCarritoLS = JSON.parse(localStorage.getItem("productos-en-carrito"))
+let productosEnCarritoLS = JSON.parse(localStorage.getItem("productos-en-carrito")) || []
+
 
 if (productosEnCarritoLS) {
     productosEnCarrito = productosEnCarritoLS
@@ -105,7 +106,7 @@ function agregarAlCarrito(e) {
         position: "right", // `left`, `center` or `right`
         stopOnFocus: true, // Prevents dismissing of toast on hover
         style: {
-        background: "linear-gradient(to right, #4b33a8, #785ce9)",
+        background: "#21a782",
         borderRadius: "2rem",
         textTransform: "uppercase",
         fontSize: ".75rem"

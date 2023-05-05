@@ -50,7 +50,6 @@ function cargarProductoCarrito(){
         actualizarBotonesEliminar()
         actualizarTotal()
 
-    
     } else {
         contenedorCarritoVacio.classList.remove("disabled")
         contenedorCarritoProductos.classList.add("disabled")
@@ -61,6 +60,14 @@ function cargarProductoCarrito(){
 
 cargarProductoCarrito()
 
+function actualizarBotonesEliminar() {
+    botonesEliminar = document.querySelectorAll(".carrito-producto-eliminar");
+
+    botonesEliminar.forEach(boton => {
+        boton.addEventListener("click", eliminarDelCarrito);
+    });
+}
+
 function eliminarDelCarrito(e) {
     Toastify({
         text: "Producto eliminado",
@@ -70,7 +77,7 @@ function eliminarDelCarrito(e) {
         position: "right", // `left`, `center` or `right`
         stopOnFocus: true, // Prevents dismissing of toast on hover
         style: {
-        background: "linear-gradient(to right, #4b33a8, #785ce9)",
+        background: "#21a782",
         borderRadius: "2rem",
         textTransform: "uppercase",
         fontSize: ".75rem"
@@ -82,17 +89,17 @@ function eliminarDelCarrito(e) {
         onClick: function(){} // Callback after click
     }).showToast();
 
-    const idBoton = e.currentTarget.id;
-    const index = productosEnCarrito.findIndex(producto => producto.id === idBoton);
+    const idBoton = e.currentTarget.id
+    const index = productosEnCarrito.findIndex(producto => producto.id === idBoton)
     
-    productosEnCarrito.splice(index, 1);
-    cargarProductosCarrito();
+    productosEnCarrito.splice(index, 1)
+    cargarProductoCarrito()
 
-    localStorage.setItem("productos-en-carrito", JSON.stringify(productosEnCarrito));
-
+    localStorage.setItem("productos-en-carrito", JSON.stringify(productosEnCarrito))
 }
 
-botonVaciar.addEventListener("click", vaciarCarrito);
+
+botonVaciar.addEventListener("click", vaciarCarrito)
 function vaciarCarrito() {
 
     Swal.fire({
